@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    background: linear-gradient(rgba(9,0,77,0.65),rgba(9,0,77,0.65)), url(rmp.jpeg);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-position: center;
+    background-size: cover;
+
+}
+.container h1{
+    margin-top: -280px;
+    padding-left: 50px;
+    font-size: 35px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container ul{
+    margin-top: 70px;
+    
+}
+.container ul li{
+    grid-row: span 3;
+    height: 70px;
+    width: 400px;
+    background-color: rgba(239, 225, 236, 0.725);
+    border-radius: 10px;
+    border: none;
+    margin: 10px;
+    list-style-type: none;
+    font-size: 40px;
+    padding: 10px;
+    padding-left: 130px;
+    
+}

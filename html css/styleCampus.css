@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    background: linear-gradient(rgba(9,0,77,0.65),rgba(9,0,77,0.65)), url(tech_park.jpg);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.container ul{
+    margin-top: 50px;
+
+}
+.container ul li{
+    grid-row: span 3;
+    height: 50px;
+    width: 400px;
+    background-color: rgba(239, 225, 236, 0.841);
+    border-radius: 10px;
+    margin: 10px;
+    font-size: 30px;
+    padding: 10px;
+    padding-left: 130px;
+    list-style-type: none;
+}
